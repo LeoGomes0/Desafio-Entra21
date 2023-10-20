@@ -1,0 +1,64 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 20px;
+}
+
+form[id="cadastro"] {
+    width: 800px;
+    margin: 25px auto;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 109%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    width: 12%;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Cpf {
+    width: 11%;
+}
+
+.Nome {
+    width: 54%;
+}
+
+.Vacina {
+    width: 14%;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    width: 47px;
+}
